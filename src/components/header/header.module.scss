@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    > li {
+        flex-direction: row;
+    }
+}
+
+nav {
+    color: gray;
+    .active{
+        color: rgb(40, 37, 37);
+    }
+
+}
+

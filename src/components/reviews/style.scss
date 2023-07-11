@@ -1,0 +1,31 @@
+.swiper-slide {
+    width: 800px;
+    height: 330px;
+}
+
+.swiper {
+    overflow: visible;
+    max-width: 1240px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+    top: -120px;
+    left: auto;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+
+    .swiper-pagination-bullet {
+        opacity: 1;
+        width: 12px;
+        border-radius: 4px;
+        background-color: #D9D9D9;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        width: 48px;
+        border-radius: 4px;
+        background-color:#C1DCDC;
+    }
+}
